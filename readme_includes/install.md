@@ -1,10 +1,5 @@
-We recommend using the `leiningen` tool to install bionitio. You will need to install `leiningen` on your system first.
-
-On OS X this can be can with homebrew like so (you may need to run `brew update` first):
-
-```
-$ brew install leiningen
-```
+We recommend using the `leiningen` tool to install bionitio. Refer to its [installation page](https://leiningen.org/#install)
+for more information. packages exist for Ubuntu via `apt`, OSX via `brew`, and a number of others.
 
 Once you have `leiningen` installed you can use it to build bionitio like so:
 
