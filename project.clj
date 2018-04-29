@@ -1,4 +1,4 @@
-(defproject bionitio "0.1.0-SNAPSHOT"
+(defproject bionitio "0.1.0"
   :description "An example bioinformatics tool to demonstrate good programming practices"
   :url "https://github.com/bionitio-team/bionitio"
   :license {:name "MIT"
