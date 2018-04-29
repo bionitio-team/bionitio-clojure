@@ -7,5 +7,5 @@ before_install:
   - ./.travis/install-dependencies.sh 
 
 script:
-  - ./functional_tests/bionitio-test.sh -p $TRAVIS_BUILD_DIR/bin/bionitio-clj -d functional_tests/test_data
+  - ./functional_tests/bionitio-test.sh -p $TRAVIS_BUILD_DIR/bin/bionitio -d functional_tests/test_data
   - ./.travis/unit-test.sh
