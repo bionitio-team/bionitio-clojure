@@ -23,7 +23,7 @@ $ cd bionitio-clojure
 ```
 
 We recommend using the `leiningen` tool to install bionitio. Refer to its [installation page](https://leiningen.org/#install)
-for more information. Packages exist for Ubuntu via `apt`, OSX via `brew`, and a number of others.
+for more information. packages exist for Ubuntu via `apt`, OSX via `brew`, and a number of others.
 
 Once you have `leiningen` installed you can use it to build bionitio like so:
 
@@ -38,8 +38,6 @@ You can run the program like so:
 ```
 $ ./bin/bionitio -h
 ```
-
-You can copy the `./bin/bionitio` program to another directory and run it from there as well.
 
 
 # General behaviour
@@ -65,7 +63,7 @@ If there are zero sequences counted in a file, the values of MIN, AVERAGE and MA
 Bionitio can display usage information on the command line via the `-h` or `--help` argument:
 
 ```
-$ ./bin/bionitio --help
+$ bionitio --help
 Print fasta stats
 
 Usage: program-name [options] FILES
