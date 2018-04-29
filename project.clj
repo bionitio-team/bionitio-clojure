@@ -11,4 +11,4 @@
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}}
   :plugins [[lein-cljfmt "0.5.6"] [lein-bin "0.3.5"]]
-  :bin {:name "bionitio-clj" :bin-path "./bin"})
+  :bin {:name "bionitio" :bin-path "./bin"})

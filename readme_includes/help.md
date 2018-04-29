@@ -1,5 +1,5 @@
 ```
-$ ./bin/bionitio --help
+$ bionitio --help
 Print fasta stats
 
 Usage: program-name [options] FILES

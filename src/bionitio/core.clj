@@ -228,7 +228,7 @@
   [options-summary]
   (->> ["Print fasta stats"
         ""
-        "Usage: bionitio-clj [options] FILES"
+        "Usage: bionitio [options] FILES"
         ""
         "Options:"
         options-summary]

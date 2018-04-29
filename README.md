@@ -39,6 +39,8 @@ You can run the program like so:
 $ ./bin/bionitio -h
 ```
 
+You can copy the `./bin/bionitio` program to another directory and run it from there as well.
+
 
 # General behaviour
 
