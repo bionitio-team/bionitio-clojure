@@ -2,9 +2,9 @@
 ;;; Description: Reads one or more FASTA files and computes various
 ;;;              simple statistics about them. Intended as an example
 ;;;              bioinformatics command line tool.
-;;; Copyright:   (c) Bernie Pope, 2017
-;;; License:     MIT
-;;; Maintainer:  bjpope@unimelb.edu.au
+;;; Copyright:   (c) BIONITIO_AUTHOR, BIONITIO_DATE 
+;;; License:     BIONITIO_LICENSE 
+;;; Maintainer:  BIONITIO_EMAIL  
 ;;; Stability:   stable
 ;;; Portability: POSIX
 
