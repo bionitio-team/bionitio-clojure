@@ -136,7 +136,6 @@ $ bionitio --log bt.log file1.fasta file2.fasta
 # normal bionitio output appears here
 # contents of log file displayed below
 ```
-XXX fixme
 
 ## Empty files
 
