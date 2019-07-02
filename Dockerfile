@@ -5,6 +5,6 @@ COPY . .
 RUN lein bin
 RUN ls -l
 RUN pwd 
-RUN bionitio -h
+RUN /bionitio/bionitio -h
 
 ENTRYPOINT ["bionitio"]
