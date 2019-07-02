@@ -3,5 +3,7 @@ WORKDIR /bionitio
 COPY . .
 
 RUN lein bin
+RUN ls -l
+RUN pwd 
 
 CMD ["bionitio"]
