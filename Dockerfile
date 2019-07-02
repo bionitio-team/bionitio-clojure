@@ -6,4 +6,4 @@ RUN lein bin
 RUN ls -l
 RUN pwd 
 
-CMD ["bionitio"]
+ENTRYPOINT ["bionitio"]
