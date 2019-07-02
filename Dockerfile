@@ -3,8 +3,6 @@ WORKDIR /bionitio
 COPY . .
 
 RUN lein bin
-RUN ls -l
-RUN pwd 
-RUN /bionitio/bionitio -h
+ENV PATH "/bionitio/:${PATH}"
 
 ENTRYPOINT ["bionitio"]
