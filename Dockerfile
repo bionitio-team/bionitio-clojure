@@ -4,5 +4,3 @@ COPY . .
 
 RUN lein bin
 ENV PATH "/bionitio/:${PATH}"
-
-ENTRYPOINT ["bionitio"]
