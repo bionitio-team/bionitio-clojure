@@ -4,3 +4,4 @@ COPY . .
 
 RUN lein bin
 ENV PATH "/bionitio/:${PATH}"
+RUN head /bionitio/bionitio
