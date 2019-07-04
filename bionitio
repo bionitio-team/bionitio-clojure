@@ -3,7 +3,7 @@
 # Wrapper around jar file
 # TODO: Change memory handling
 
-JAR_LOC="$(dirname $0)/target/ubserjar/bionitio-0.1.0-standalone.jar"
+JAR_LOC="$(dirname $0)/target/uberjar/bionitio-0.1.0-standalone.jar"
 
 if [ $# -eq 0 ]
  then
