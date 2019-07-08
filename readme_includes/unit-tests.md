@@ -1,6 +1,4 @@
+You can run the unit tests for bionitio with the following command:
 ```
-lein test bionitio.core-test
-
-Ran 9 tests containing 9 assertions.
-0 failures, 0 errors.
+$ lein test bionitio.core-test
 ```
