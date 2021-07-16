@@ -3,10 +3,10 @@
   :url "https://github.com/bionitio-team/bionitio"
   :license {:name "MIT"
             :url "https://opensource.org/licenses/MIT"}
-  :dependencies [[org.clojure/clojure "1.8.0"]
+  :dependencies [[org.clojure/clojure "1.10.3"]
                  [clj-biosequence "0.5.2"]
-                 [org.clojure/tools.cli "0.3.5"]
-                 [com.taoensso/timbre "4.8.0"]]
+                 [org.clojure/tools.cli "1.0.206"]
+                 [com.taoensso/timbre "5.1.2"]]
   :main ^:skip-aot bionitio.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}}
