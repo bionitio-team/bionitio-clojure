@@ -6,6 +6,7 @@
   (:require [clojure.test :refer :all]
             [clj-biosequence.core :as bs]
             [clojure.java.io :as io]
+            [bionitio.fasta :refer :all]
             [bionitio.core :refer :all]))
 
 ; Convenience wrapper for testing process-fasta-reader
